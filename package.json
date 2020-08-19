@@ -1,0 +1,16 @@
+{
+  "name": "diff-files",
+  "version": "1.0.0",
+  "description": "文件对比工具， 对比两个文件夹内的文件，将新文件输出到指定目录",
+  "main": "src/main.js",
+  "author": "Allan",
+  "license": "MIT",
+  "bin": {
+    "diff-files": "./bin/main.js"
+  },
+  "dependencies": {
+    "commander": "^6.0.0",
+    "crypto": "^1.0.1",
+    "fs-extra": "^9.0.1"
+  }
+}
